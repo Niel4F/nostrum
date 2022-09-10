@@ -1,0 +1,187 @@
+
+@media(min-width: 1271px){
+    .wrapper-grey .container{
+        padding: 20px 160px;
+    }
+}
+
+
+@media(max-width: 800px){
+
+    .wrapper-grey .container{
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-grey .container .col-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        padding: 20px;
+    }
+    .wrapper-grey .container .col-1 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.5em;
+        letter-spacing: 1.5px;
+    }
+    .wrapper-grey .container .col-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .wrapper-grey .container .col-2 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1em;
+        font-size: 1.5em;
+        letter-spacing: 1.5px;
+    }
+    .wrapper-grey .container .col-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .wrapper-grey .container .col-3 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.5em;
+        letter-spacing: 1.5px;
+    }
+    
+}
+@media(max-width: 545px){
+
+    .wrapper-grey .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .wrapper-grey .container .col-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .wrapper-grey .container .col-1 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+    .wrapper-grey .container .col-2 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+    .wrapper-grey .container .col-3 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+    
+}
+@media(max-width: 481px){
+
+    .wrapper-grey .container .col-1 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.2em;
+        letter-spacing: 2px;
+    }
+    .wrapper-grey .container .col-2 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.2em;
+        letter-spacing: 2px;
+    }
+    .wrapper-grey .container .col-3 p{
+        padding: 15px;
+        color: #1f3f66;
+        font-size: 1.2em;
+        letter-spacing: 2px;
+    }
+    
+}
+@media(max-width: 425px){
+
+    .wrapper-grey .container .col-1 p{
+
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+    .wrapper-grey .container .col-1 img{
+        height: 62px;
+        width: 62px;
+    }
+    .wrapper-grey .container .col-2 p{
+
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+    .wrapper-grey .container .col-2 img{
+        height: 62px;
+        width: 62px;
+    }
+    .wrapper-grey .container .col-3 p{
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+    .wrapper-grey .container .col-3 img{
+        height: 62px;
+        width: 62px;
+    }
+    
+}
+@media(max-width: 368px){
+
+    .wrapper-grey .container .col-1 p{
+
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-grey .container .col-2 p{
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-grey .container .col-3 p{
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }   
+}
+@media(max-width: 331px){
+    .wrapper-grey .container{
+        padding: 5;
+    }
+
+    .wrapper-grey .container .col-1 p{
+
+        font-size: 0.7em;
+        letter-spacing: 1.3px;
+    }
+
+    .wrapper-grey .container .col-2 p{
+
+        font-size: 0.7em;
+        letter-spacing: 1.3px;
+    }
+
+    .wrapper-grey .container .col-3 p{
+        font-size: 0.7em;
+        letter-spacing: 1.3px;
+    }   
+}

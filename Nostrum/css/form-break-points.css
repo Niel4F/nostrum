@@ -1,0 +1,506 @@
+@media (min-width: 580px) and (max-width: 980px){
+    .wrapper-form{
+        height: 800px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    
+    }
+
+    .wrapper-form .pform-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .wrapper-form .pform-container .col-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        padding-left: 10px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style{
+        height: 350px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #1f3f66;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        transform: translate(0,50px);
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transform: translate(0,-75px);
+        height: 50px;
+        width: 100%;
+        background: orange;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+    
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .blue{
+        background: #1f3f66;
+        width: 50%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .blue p{
+        color: #fff;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .orange{
+        background: orange;
+        height: 50px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transform: translate(1px,-1px);
+    
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .orange p{
+        color: #fff;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-1{
+        height: 45px;
+        width: 80%;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        padding: 0px 15px;
+        outline: none;
+        border: none;
+        font-size: 1.4em;
+        transform: translate(0,-15px);
+    
+        
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-1::placeholder{
+        color: #1f3f66;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-2{
+        height: 45px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 0px 15px;
+        outline: none;
+        border: none;
+        font-size: 1.4em;
+        transform: translate(0,-15px);
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-2::placeholder{
+        color: #1f3f66;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-btn{
+        padding: 10px;
+        background: #57BC42;
+        outline: none;
+        cursor: pointer;
+        border: 0;
+        border-radius: 6px;
+        color: #fff;
+        display: inline-block;
+        transform: translate(85px,15px);
+        height: 48px;
+        width: 230px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.7em;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .wrapper-form .pform-container .col-2 .form-style .form-btn:hover{
+        letter-spacing: 2px;
+        color: rgb(233, 233, 233);
+        background: #4da53b;
+    }
+    
+}
+
+
+
+@media (min-width: 440px) and (max-width: 580px){
+    .wrapper-form{
+        height: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    
+    }
+
+    .wrapper-form .pform-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .wrapper-form .pform-container .col-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+    .wrapper-form .pform-container .col-1 h2{
+        color: #1f3f66;
+        position: absolute;
+        transform: translate(-0px,-320px);
+        font-size: 2em;
+        font-weight: 400;
+    }
+    .wrapper-form .pform-container .col-1 .infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 7px 7px;
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1 img{
+        transform: translate(15px,0);
+        
+    
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1 .description{
+        height: 50px;
+        width: 100%;
+        padding: 0px 35px;
+        background: #e5e5e5;
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1 .description p{
+        color: #1f3f66;
+        font-size: 1.3em;
+    }
+    .wrapper-form .pform-container .col-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        padding-left: 10px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style{
+        height: 350px;
+        width: 300x;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #1f3f66;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        transform: translate(0,50px);
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transform: translate(0,-75px);
+        height: 50px;
+        width: 100%;
+        background: orange;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+    
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .blue{
+        background: #1f3f66;
+        width: 50%;
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .blue p{
+        color: #fff;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .orange{
+        background: orange;
+        height: 50px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transform: translate(1px,-1px);
+    
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .orange p{
+        color: #fff;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-1{
+        height: 45px;
+        width: 80%;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        padding: 0px 15px;
+        outline: none;
+        border: none;
+        font-size: 1.4em;
+        transform: translate(0,-15px);
+    
+        
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-1::placeholder{
+        color: #1f3f66;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-2{
+        height: 45px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 0px 15px;
+        outline: none;
+        border: none;
+        font-size: 1.4em;
+        transform: translate(0,-15px);
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-2::placeholder{
+        color: #1f3f66;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-btn{
+        padding: 10px;
+        background: #57BC42;
+        outline: none;
+        cursor: pointer;
+        border: 0;
+        border-radius: 6px;
+        color: #fff;
+        display: inline-block;
+        transform: translate(40px,15px);
+        height: 48px;
+        width: 230px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.7em;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .wrapper-form .pform-container .col-2 .form-style .form-btn:hover{
+        letter-spacing: 2px;
+        color: rgb(233, 233, 233);
+        background: #4da53b;
+    }
+    
+}
+@media (max-width: 440px){
+    .wrapper-form{
+        height: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    
+    }
+
+    .wrapper-form .pform-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .wrapper-form .pform-container .col-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    .wrapper-form .pform-container .col-1 h2{
+        color: #1f3f66;
+        position: absolute;
+        transform: translate(-0px,-360px);
+        font-size: 1.6em;
+        font-weight: 400;
+    }
+    .wrapper-form .pform-container .col-1 .infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 7px;
+        width: 340px;
+        transform: translate(-15px);
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1 img{
+        transform: translate(18px,0) scale(0.8);
+
+        
+    
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1 .description{
+        height: 50px;
+        width: 100%;
+        padding: 0px 35px;
+        background: #e5e5e5;
+    }
+    .wrapper-form .pform-container .col-1 .infos .info-col-1 .description p{
+        color: #1f3f66;
+        font-size: 0.9em;
+        transform: translate(0,8px);
+    }
+    .wrapper-form .pform-container .col-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        padding-left: 10px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style{
+        height: 350px;
+        width: 330x;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #1f3f66;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        margin-right: 30px;
+        margin-left: 20px;
+
+        transform: translate(0,50px);
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transform: translate(0,-75px);
+        height: 50px;
+        width: 100%;
+        background: orange;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+    
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .blue{
+        background: #1f3f66;
+        width: 50%;
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transform: translate(0,1px);
+        
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .blue p{
+        color: #fff;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .orange{
+        background: orange;
+        height: 50px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transform: translate(1px,-1px);
+    
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-header .orange p{
+        color: #fff;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-1{
+        height: 45px;
+        width: 80%;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        padding: 0px 15px;
+        outline: none;
+        border: none;
+        font-size: 1.4em;
+        transform: translate(0,-15px);
+    
+        
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-1::placeholder{
+        color: #1f3f66;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-2{
+        height: 45px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 0px 15px;
+        outline: none;
+        border: none;
+        font-size: 1.4em;
+        transform: translate(0,-15px);
+    }
+    .wrapper-form .pform-container .col-2 .form-style .input-2::placeholder{
+        color: #1f3f66;
+    }
+    .wrapper-form .pform-container .col-2 .form-style .form-btn{
+        padding: 10px;
+        background: #57BC42;
+        outline: none;
+        cursor: pointer;
+        border: 0;
+        border-radius: 6px;
+        color: #fff;
+        display: inline-block;
+        transform: translate(0px,15px);
+        height: 48px;
+        width: 240px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.7em;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .wrapper-form .pform-container .col-2 .form-style .form-btn:hover{
+        letter-spacing: 2px;
+        color: rgb(233, 233, 233);
+        background: #4da53b;
+    }
+    
+}
